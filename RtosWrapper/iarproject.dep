@@ -5,35 +5,35 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\MyTasks\MeasureTask.o</file>
-            <file>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\port.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\Rtos\FreeRtos\queue.o</file>
             <file>$PROJ_DIR$\Debug\Obj\Rtos\FreeRtos\croutine.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\Rtos\FreeRtos\event_groups.o</file>
             <file>$PROJ_DIR$\Debug\Obj\startupF411RE.o</file>
             <file>$PROJ_DIR$\Debug\Obj\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portasm.o</file>
-            <file>$PROJ_DIR$\Debug\Exe\iarproject.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\Debug\Obj\Rtos\FreeRtos\tasks.o</file>
             <file>$PROJ_DIR$\Debug\Obj\Rtos\FreeRtos\list.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Rtos\FreeRtos\queue.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\iarproject.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\Rtos\FreeRtos\event_groups.o</file>
             <file>$PROJ_DIR$\Debug\Obj\Rtos\FreeRtos\timers.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\Rtos\FreeRtos\portable\IAR\ARM_CM4F\port.o</file>
-            <file>$PROJ_DIR$\Application\Implementation\rcfilter.cpp</file>
+            <file>$PROJ_DIR$\MyTasks\LedManagerTask.cpp</file>
             <file>$PROJ_DIR$\MyTasks\MeasureTask.cpp</file>
             <file>$PROJ_DIR$\MyTasks\ButtonTask.cpp</file>
-            <file>$PROJ_DIR$\MyTasks\LedManagerTask.cpp</file>
-            <file>$PROJ_DIR$\Rtos\FreeRtos\queue.c</file>
-            <file>$PROJ_DIR$\main.cpp</file>
-            <file>$PROJ_DIR$\Rtos\FreeRtos\list.c</file>
-            <file>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portasm.s</file>
-            <file>$PROJ_DIR$\Rtos\FreeRtos\timers.c</file>
+            <file>$PROJ_DIR$\Application\Implementation\rcfilter.cpp</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\port.c</file>
             <file>$PROJ_DIR$\Debug\Obj\Application\Implementation\rcfilter.o</file>
             <file>$PROJ_DIR$\Debug\Obj\MyTasks\ButtonTask.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\MyTasks\MeasureTask.o</file>
+            <file>$PROJ_DIR$\main.cpp</file>
             <file>$PROJ_DIR$\Debug\Obj\MyTasks\LedManagerTask.o</file>
-            <file>$PROJ_DIR$\Rtos\FreeRtos\croutine.c</file>
-            <file>$PROJ_DIR$\startupF411RE.cpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\Rtos\FreeRtos\portable\IAR\ARM_CM4F\port.o</file>
             <file>$PROJ_DIR$\Rtos\FreeRtos\tasks.c</file>
+            <file>$PROJ_DIR$\startupF411RE.cpp</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\queue.c</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portasm.s</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\croutine.c</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\timers.c</file>
             <file>$PROJ_DIR$\Rtos\FreeRtos\event_groups.c</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\list.c</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
@@ -45,20 +45,11 @@
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\port.c</name>
+            <name>$PROJ_DIR$\MyTasks\LedManagerTask.cpp</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 12</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Application\Implementation\rcfilter.cpp</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 22</file>
+                    <file> 19</file>
                 </tool>
             </outputs>
         </file>
@@ -67,7 +58,7 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 0</file>
+                    <file> 17</file>
                 </tool>
             </outputs>
         </file>
@@ -76,25 +67,25 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 23</file>
+                    <file> 16</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\MyTasks\LedManagerTask.cpp</name>
+            <name>$PROJ_DIR$\Application\Implementation\rcfilter.cpp</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 24</file>
+                    <file> 15</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Rtos\FreeRtos\queue.c</name>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\port.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 2</file>
+                    <file> 20</file>
                 </tool>
             </outputs>
         </file>
@@ -103,39 +94,12 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 8</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Rtos\FreeRtos\list.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 10</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portasm.s</name>
-            <outputs>
-                <tool>
-                    <name>AARM</name>
                     <file> 6</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Rtos\FreeRtos\timers.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 11</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Rtos\FreeRtos\croutine.c</name>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\tasks.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -148,12 +112,39 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
                     <file> 5</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Rtos\FreeRtos\tasks.c</name>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 2</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\timers.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -163,6 +154,15 @@
         </file>
         <file>
             <name>$PROJ_DIR$\Rtos\FreeRtos\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\list.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
