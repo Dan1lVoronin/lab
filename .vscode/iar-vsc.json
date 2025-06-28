@@ -1,8 +1,18 @@
 {
-  "workspace": {
-    "path": "c:\\Users\\danil\\OneDrive\\Рабочий стол\\майнор\\my_labs\\my_labs\\RtosWrapper\\test.eww"
-  },
-  "workbench": {
-    "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1"
-  }
+	"workspace": {
+		"path": "${workspaceFolder}\\RtosWrapper\\test.eww"
+	},
+	"workbench": {
+		"path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1"
+	},
+	"workspaces": {
+		"${workspaceFolder}\\RtosWrapper\\test.eww": {
+			"configs": {
+				"${workspaceFolder}\\RtosWrapper\\iarproject.ewp": "Debug"
+			},
+			"selected": {
+				"path": "${workspaceFolder}\\RtosWrapper\\iarproject.ewp"
+			}
+		}
+	}
 }
